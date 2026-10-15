@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rene's Turo-Turo</title>
+</head>
+<body>
+
+    <header>
+        <h1>Rene's Turo-Turo</h1>
+        <p>Affordable Filipino street food, made fresh every day!</p>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#menu">Menu</a> |
+            <a href="#order">Order</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Rene's Turo-Turo</h2>
+            <p>
+                Rene's Turo-Turo serves delicious and affordable Filipino street food.
+                Choose your favorite food, place a pre-order, and pick it up at the shop.
+            </p>
+
+            <img src="images/fishball.png"
+                 alt="Filipino fish balls served as a street food snack"
+                 width="400">
+        </section>
+
+        <section id="menu">
+            <h2>Today's Menu</h2>
+            <ul>
+                <li>Fish Balls - ₱20 per serving</li>
+                <li>Kwek-Kwek - ₱30 per serving</li>
+                <li>Isaw - ₱25 per stick</li>
+                <li>Kikiam - ₱25 per serving</li>
+                <li>Street Food Hotdog - ₱35 per stick</li>
+                <li>Siomai - ₱40 per serving</li>
+            </ul>
+        </section>
+
+        <section id="order">
+            <h2>Pre-Order Form</h2>
+            <p>Fill out the form below to place your order.</p>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname">
+                </p>
+
+                <p>
+                    <label for="contact">Contact Number:</label><br>
+                    <input type="tel" id="contact" name="contact"
+                           placeholder="09XXXXXXXXX">
+                </p>
+
+                <p>
+                    <label for="item">Choose an Item:</label><br>
+                    <select id="item" name="item" required>
+                        <option value="">-- Select an item --</option>
+                        <option value="fish-ball">Fish Balls - ₱20</option>
+                        <option value="kwek-kwek">Kwek-Kwek - ₱30</option>
+                        <option value="isaw">Isaw - ₱25</option>
+                        <option value="kikiam">Kikiam - ₱25</option>
+                        <option value="hotdog">Street Food Hotdog - ₱35</option>
+                        <option value="siomai">Siomai - ₱40</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="quantity">Quantity:</label><br>
+                    <input type="number" id="quantity" name="quantity">
+                </p>
+
+                <p>
+                    <label for="pickup">Pickup Date:</label><br>
+                    <input type="date" id="pickup" name="pickup" required>
+                </p>
+
+                <p>
+                    <button type="submit">Place Pre-Order</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact and Ordering Information</h2>
+            <p>Visit our Facebook page for updates and customer reviews:</p>
+            <p>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                    Rene's Turo-Turo on Facebook
+                </a>
+            </p>
+
+            <p>Learn more about our ordering and pickup process:</p>
+            <p>
+                <a href="how-to-order.html">How to Order and Pick Up</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rene's Turo-Turo. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
